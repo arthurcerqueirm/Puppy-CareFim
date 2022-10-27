@@ -272,13 +272,13 @@ body {
 }
 
 .keen-slider__slide h2 {
-  font-size: 3vw;
+  font-size: 2.8vw;
   color: black;
   text-align: center;
 
 }
 .keen-slider__slide p {
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: black;
   margin-top: 20px;
 }
@@ -381,6 +381,7 @@ body {
 }
 
 .keen-slider__slide{
+  margin-top: 30px;
     background-color: rgb(194, 194, 194);
 }
 
@@ -435,18 +436,29 @@ div.liberdade h1{
     text-align: center;
     font-size: 3em;
     width: 40vw;
-    margin: auto;
-    margin-top: 30px;
+    padding: 40px;
 }
 
 div.liberdade {
     height: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 b{
     color: red;
 }
-
 div.espaco{
-    height: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.espaco div{
+  height: 10px;
+  width: 70vw;
+  background-color: rgb(43, 43, 43);
+  border-radius: 50px;
 }
